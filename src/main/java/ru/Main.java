@@ -7,12 +7,7 @@ public class Main {
 
 
 
-                String idea = "I like Java!";
-                System.out.println(idea);
-                idea = idea + " But I am a newbie. ";
-                int year = 2022;
-                idea = idea + year;
-                System.out.println(idea);
+               
             }
         }
 
