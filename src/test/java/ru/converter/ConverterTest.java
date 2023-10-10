@@ -13,10 +13,9 @@ class ConverterTest {
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
-
     }
 
-    @Test
+   @Test
     void whenConvertMinus140RblThen2Dot4Euro() {
         float in = -140;
         float expected = 0;
