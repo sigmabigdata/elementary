@@ -15,26 +15,25 @@ class ConverterTest {
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 
-   @Test
-    void whenConvertMinus140RblThen2Dot4Euro() {
-        float in = -140;
-        float expected = 0;
+    @Test
+    void whenConvert200RblThen2Euro() {
+        float in = 200;
+        float expected = 2;
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 
     @Test
-    void whenConvertZeroRblThen3Dot4Euro() {
+    void whenConvert0RblThen0Euro() {
         float in = 0;
         float expected = 0;
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
-
     @Test
-    void whenConvert180RblThen4Dot2Dollar() {
+    void whenConvert180RblThen2Dlr() {
         float in = 180;
         float expected = 2;
         float out = Converter.rubleToDollar(in);
@@ -43,16 +42,16 @@ class ConverterTest {
     }
 
     @Test
-    void whenConvertMinus180RblThen5Dot2Dollar() {
-        float in = -180;
-        float expected = 0;
+    void whenConvert200RblThen2dot22222Dollar() {
+        float in = 200;
+        float expected = 2.2222223f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
     }
 
     @Test
-    void whenConvertZeroRblThen6Dot2Dollar() {
+    void whenConvert0RblThen0Dollar() {
         float in = 0;
         float expected = 0;
         float out = Converter.rubleToDollar(in);
