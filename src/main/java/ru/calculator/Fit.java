@@ -1,24 +1,27 @@
 package ru.calculator;
 
+
 public class Fit {
 
     public static double manWeight(short height) {
-        double rsl = (height - 100) * 1.15;
+        double rsl = (height-100)*1.15;
         return rsl;
     }
 
     public static double womanWeight(short height) {
-        double rsl = (height - 110) * 1.15;
+        double rsl = (height-110)*1.15;
         return rsl;
     }
 
     public static void main(String[] args) {
-        short height = 187;
-        double man = Fit.manWeight(height);
-        double woman = Fit.womanWeight(height);
-
+        short heightMan = 187;
+        double man = Fit.manWeight(heightMan);
         System.out.println("Man 187 is " + man);
-        System.out.println("Woman 187 is " + woman);
+
+        short heightWomen = 170;
+        double women = Fit.womanWeight(heightWomen);
+        System.out.println("Women 187 is " + women);
     }
 
 }
+
