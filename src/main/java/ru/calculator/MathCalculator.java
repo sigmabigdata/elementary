@@ -13,11 +13,11 @@ public class MathCalculator {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
     }
 
-    public static double differenceNum(double first, double second){
+    public static double differenceNum(double first, double second) {
         return divide(first, second) + difference(first, second);
     }
 
-    public static double sumAll(double first, double second){
+    public static double sumAll(double first, double second) {
         return divide(first, second) + difference(first, second) + sum(first, second) + multiply(first, second);
     }
 }
