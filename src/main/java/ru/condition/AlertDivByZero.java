@@ -7,10 +7,11 @@ public class AlertDivByZero {
         if (resultZer) {
             System.out.println("Could not div by 0.");
         }
-        if (resultNeg){
+        if (resultNeg) {
             System.out.println("This is negative number");
         }
     }
+
     public static void main(String[] args) {
         AlertDivByZero.possibleDiv(4);
         AlertDivByZero.possibleDiv(0);
