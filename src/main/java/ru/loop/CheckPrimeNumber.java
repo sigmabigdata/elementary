@@ -1,4 +1,4 @@
-package ru.loop;
+/*package ru.loop;
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
@@ -6,6 +6,6 @@ public class CheckPrimeNumber {
             if (number % number ==0)
         }
     }
-}
+}*/
 
 
