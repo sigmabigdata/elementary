@@ -1,4 +1,4 @@
-/*package ru.loop;
+package ru.loop;
 
 public class Mortgage {
     public static int year(double amount, int salary, double percent) {
@@ -15,4 +15,4 @@ public class Mortgage {
         }
         return year;
     }
-}*/
+}
