@@ -4,8 +4,7 @@ public class Square {
     public static int[] calculate(int bound) {
         int[] rst = new int[bound];
         for (int i = 0; i < bound; i++) {
-            int pow = 2;
-            rst[i] = (int) Math.pow(i, pow);
+            rst[i] = i * i;
         }
         return rst;
     }
