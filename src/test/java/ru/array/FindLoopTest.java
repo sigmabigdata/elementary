@@ -59,7 +59,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenDiapasonHas3Then1() {
+    public void whenDiapasonHas3Then2() {
         int[] data = new int[]{1, 2, 3, 4, 5, 6, 7, 9, 2, 3, 4};
         int el = 3;
         int start = 0;
