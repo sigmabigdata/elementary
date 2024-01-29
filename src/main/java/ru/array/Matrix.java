@@ -1,7 +1,5 @@
 package ru.array;
 
-import java.util.Arrays;
-
 public class Matrix {
     public static int[][] multiple(int size) {
         int[][] table = new int[size][size];
